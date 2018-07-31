@@ -9,6 +9,9 @@
 # dependencies
 /node_modules
 
+#build/public
+/public
+
 # IDEs and editors
 /.idea
 .project

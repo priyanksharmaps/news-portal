@@ -5,10 +5,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --app admin && ng build --app client",
+    "build:admin":"ng build --app admin",
+    "build:client":"ng build --app client",
+    "build": "npm run build:admin && npm run build:client",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "setup": "npm install"
   },
   "private": true,
   "dependencies": {

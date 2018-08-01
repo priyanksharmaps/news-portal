@@ -1,1 +1,1 @@
-# news-portal
+# NewsPortal

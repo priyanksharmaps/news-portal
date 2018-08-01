@@ -6,7 +6,7 @@
   "apps": [
     {
       "name" :"admin",
-      "root": "admin-src",
+      "root": "src/apps/admin-src",
       "outDir": "public/admin",
       "assets": [
         "assets",
@@ -27,10 +27,11 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "baseHref": "admin"
     }, {
       "name":"client",
-      "root": "client-src",
+      "root": "src/apps/client-src",
       "outDir": "public/client",
       "assets": [
         "assets",
@@ -51,7 +52,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "baseHref": "client"
     }
   ],
   "e2e": {

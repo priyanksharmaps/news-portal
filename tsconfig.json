@@ -14,9 +14,10 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "baseUrl": "./"
   },
   "exclude": [
-      "node_modules"
+    "node_modules"
   ]
 }
